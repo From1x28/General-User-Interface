@@ -10,13 +10,12 @@ body {
 
 .lab-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12) !important;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Додаткова зручність на малих екранах */
 @media (max-width: 575.98px) {
     .btn-lg {
-        padding: 0.7rem 1rem;
-        font-size: 1rem;
+        padding: 11px 16px;
+        font-size: 16px;
     }
 }
